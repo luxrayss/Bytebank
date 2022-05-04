@@ -25,15 +25,21 @@ class FormularioTransferencia extends StatelessWidget {
         appBar: AppBar(title: Text('Criando Transferência'),),
         body: Column(
           children: [
-            TextField(),
-            TextField(),
-            ElevatedButton(onPressed: onPressed)
+            TextField(
+              style: TextStyle(
+                fontSize: 16.0
+              ),
+              decoration: InputDecoration(
+                labelText: 'Número da Conta',
+                hintText: '0000',
+              ),
+            ),
           ],
         ));
   }
 }
 
-class ListaTransferencias extends StatelessWidget{
+class ListaTransferencias extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //Card ficará dentro de uma coluna para poder haver vários cards
@@ -51,7 +57,7 @@ class ListaTransferencias extends StatelessWidget{
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {  },
+        onPressed: () {},
         //icone do botão
         child: Icon(Icons.add),
       ),
@@ -59,7 +65,7 @@ class ListaTransferencias extends StatelessWidget{
   }
 }
 
-class ItemTransferencia extends StatelessWidget{
+class ItemTransferencia extends StatelessWidget {
 
   final Transferencia _transferencia;
 
