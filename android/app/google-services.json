@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "144111703222",
+    "project_id": "curso-crashlytics-7b6a9",
+    "storage_bucket": "curso-crashlytics-7b6a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144111703222:android:2e14e5ddaf6bffc4ae4217",
+        "android_client_info": {
+          "package_name": "br.com.alura.bytebank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144111703222-n4aqulih0vpsgg0ogl88uofs8ji77eqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM5k-JKIV_b1OaRZJWP3cCvI0XTmsitvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144111703222-n4aqulih0vpsgg0ogl88uofs8ji77eqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
